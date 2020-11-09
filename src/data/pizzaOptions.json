@@ -1,0 +1,131 @@
+{
+    "size": {
+        "type": "select",
+        "options": [
+            {
+                "label": "Personal",
+                "value": "xs"
+            },
+            {
+                "label": "Small",
+                "value": "s"
+            },
+            {
+                "label": "Medium",
+                "value": "m"
+            },
+            {
+                "label": "Large",
+                "value": "l"
+            },
+            {
+                "label": "Extra Large",
+                "value": "xl"
+            }
+        ]
+    },
+    "sauce": {
+        "type": "radio",
+        "options": [
+            {
+                "label": "Original Red",
+                "value": "red"
+            },
+            {
+                "label": "Garlic Ranch",
+                "value": "garlic"
+            },
+            {
+                "label": "BBQ Sauce",
+                "value": "bbq"
+            },
+            {
+                "label": "Spinach Alfredo",
+                "value": "alfredo"
+            }
+        ]
+    },
+    "toppings": {
+        "type": "multiselect",
+        "max": 10,
+        "options": [
+            {
+                "label": "Pepperoni",
+                "value": "pepperoni"
+            },
+            {
+                "label": "Sausage",
+                "value": "sausage"
+            },
+            {
+                "label": "Canadian Bacon",
+                "value": "canadian-bacon"
+            },
+            {
+                "label": "Spicy Italian Sausage",
+                "value": "italian-sausage"
+            },
+            {
+                "label": "Grilled Chicken",
+                "value": "chicken"
+            },
+            {
+                "label": "Onions",
+                "value": "onion"
+            },
+            {
+                "label": "Green Pepper",
+                "value": "pepper"
+            },
+            {
+                "label": "Diced Tomatoes",
+                "value": "tomato"
+            },
+            {
+                "label": "Black Olives",
+                "value": "olive"
+            },
+            {
+                "label": "Roasted Garlic",
+                "value": "garlic"
+            },
+            {
+                "label": "Artichoke Hearts",
+                "value": "artichoke"
+            },
+            {
+                "label": "Three Cheese",
+                "value": "three-cheese"
+            },
+            {
+                "label": "Pineapple",
+                "value": "pineapple"
+            },
+            {
+                "label": "Extra Cheese",
+                "value": "xtra-cheese"
+            }
+        ]
+    },
+    "substitutions": {
+        "type": "multiselect",
+        "max": 1,
+        "options": [
+            {
+                "label": "Gluten Free Crust (+$1.00)",
+                "value": "gluten-free"
+            }
+        ]
+    },
+    "specialInstructions": {
+        "type": "text",
+        "value": ""
+    },
+    "defaultOptions": {
+        "size": "",
+        "sauce": "red",
+        "toppings": [],
+        "substitutions": [],
+        "specialInstructions": ""
+    }
+}
